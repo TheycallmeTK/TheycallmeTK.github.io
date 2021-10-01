@@ -215,6 +215,8 @@ body{
     background-clip: content-box;
     background-size: cover;
     overflow: hidden;
+    
+
 }
 
 #block{
@@ -311,6 +313,7 @@ iframe{
 
 #row{
     padding-top: 10px;
+
 }
 
 
@@ -748,8 +751,15 @@ text-align: center;
 }
 
 @media screen and (max-width: 1600px){
-    
-
+    #paragraph{
+        width: auto;
+    }
+    #pls{
+        font-size: large;
+    }
+    #projNail{
+        width: 30%;
+    }
     
     
 }
